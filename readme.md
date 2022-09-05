@@ -59,3 +59,25 @@ localhost/<nom_du_projet>/public
 ```
 
 Vous devriez y voir une page d'accueil Symphony.
+
+## Les commandes
+
+Quelques commandes de base :
+
+| Action              | Commande                        |
+|---------------------|---------------------------------|
+| Créer un controller | php bin/console make:controller |
+| Créer une entity    | php bin/console make:entity     |
+| Créer un form       | php bin/console make:form       |
+
+### Fixture
+
+Pour ajouter des données facilement et rapidement en BDD.
+Installation avec `composer require --dev orm-fixtures`.
+
+### Fausses données avec Faker
+
+Installation avec `composer req fzaninotto/Faker`.
+
+### Base de données
+
