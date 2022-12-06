@@ -105,7 +105,7 @@ http://127.0.0.1:8000
 
 `composer req fzaninotto/Faker`
 
-### Base de données
+### IV. Base de données
 
 | Action              | Commande                        |
 |---------------------|---------------------------------|
